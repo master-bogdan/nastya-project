@@ -1,0 +1,23 @@
+// Home section start
+.home {
+    min-height: 100vh;
+    padding: 10% 0 6% 0;
+    background: url(../img/bg/top_bg.jpg) fixed center (center/cover) no-repeat;
+    display: flex;
+    align-items: flex-end;
+    &__title {
+        text-align: center;
+        font-size: 6vw;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: #f1f1f1;
+        font-weight: 200;
+        // margin-bottom: 6%;
+        span {
+            font-weight: 900;
+        }
+    }
+}
+
+// Home section end

@@ -1,0 +1,47 @@
+.portfolio{
+    background-color: black;
+    padding: 8% 0 3% 0;
+    &__descr {
+        color: #f1f1f1;
+        text-align: center;
+        font-size: 1.8vw;
+    }
+    &__img_wrapper {
+        padding: 5% 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__img {
+        display: block;
+        width: 24%;
+        .after {
+            display: none;
+        }
+        &:hover {
+            transform: scale(1.2);
+            transition: all 0.3s linear;
+            cursor: zoom-in;
+            .after{
+                display: block;
+                width: 100%;
+                padding: 5% 0;
+                text-align: center;
+                color: white;
+                background: black;
+                position: absolute;
+                bottom: 5%;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 13px;
+            }
+            
+        }
+        &_item{
+            width: 100%;
+            height: auto;
+            background: burlywood;
+            margin-bottom: 15px;
+        }
+    }
+}

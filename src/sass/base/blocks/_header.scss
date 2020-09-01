@@ -1,0 +1,36 @@
+//site navigation
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #fff;
+    background: rgba($color: black, $alpha: 0.8);
+    nav {
+        width: 60%;
+        margin: 2% auto;
+        .mobile__menu {
+            display: none;
+        }
+        .menu {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 0;
+            &__item {
+                display: inline-block;
+                img {
+                    width: 30px;
+                    background: transparent;
+                }
+            }
+            &__link {
+                font-size: 1.5vw;
+                line-height: 1.2;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: 0.025em;
+                color: #f1f1f1;
+            }
+        }
+    }
+}
